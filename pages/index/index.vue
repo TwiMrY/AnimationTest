@@ -18,7 +18,10 @@
 		},
 		methods: {
 			star() {
-				this.starClass += " active";
+					this.starClass += " active";
+					if (this.starClass == "fave active active"){
+						this.starClass = "fave";
+					};
 			}
 		}
 	}
@@ -42,6 +45,6 @@
 	
 	.fave.active {
 		background-position: -3519px 0;
-		transition: background-position 0.8s steps(55);
+		transition: background 0.8s steps(55);
 	}
 </style>
