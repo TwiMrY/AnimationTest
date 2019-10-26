@@ -1,5 +1,6 @@
 # AnimationTest
 The test of *Animation*
+Author: TwiMrY
 
 ## Pages
 - index
